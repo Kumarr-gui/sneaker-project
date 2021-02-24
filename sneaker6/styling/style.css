@@ -65,6 +65,14 @@ display: inline-block;
 }
 
 
+.card-hover-text{
+    display: none;
+}
+
+.gridbox a:hover ~ .card-hover-text{
+    display: block;
+}
+
 .container{
     max-width: 50%;
     margin-left: 40px;
